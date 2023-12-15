@@ -1,5 +1,5 @@
-`Context Menu` is part of `UIKit` framework.
-Here we define a custom class manager called `ContextMenuInteractionProvider` where we define all needed stuffs for our context menu to work along with `Drag & Drop` where it is known to cause issues with both drag & drop and context menu implemented using UITableView or UICollectionView's native context menu support.
+Context Menu is part of `UIKit` framework.
+Here we define a custom class manager called `ContextMenuInteractionProvider` where we define all needed stuffs for our context menu to work along with `Drag & Drop` where it is known to cause issues with both `Drag & Drop` and `Context Menu` implemented using UITableView or UICollectionView's native context menu support. This most of the time causes issues for Context Menu failing to show up when the long press was initiated from the contents of either `CollectionView's` or `TableView's` cells.
 
 ```swift
 import UIKit
